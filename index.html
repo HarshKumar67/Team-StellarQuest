@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A World Away: Exoplanet Hunter AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0a0a1a;
+        color: #e0e0e0;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar for a more thematic feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a1a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a5568;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #718096;
+      }
+      .recharts-tooltip-cursor {
+        stroke: rgba(156, 163, 175, 0.5);
+      }
+      .recharts-tooltip-wrapper {
+        background-color: #1a202c !important;
+        border: 1px solid #4a5568 !important;
+        border-radius: 0.5rem !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
